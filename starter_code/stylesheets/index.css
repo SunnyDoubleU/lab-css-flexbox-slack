@@ -1,0 +1,144 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./nav.css);
+
+html {
+    font-size: 18px;
+}
+
+h1, h2, h3{
+    font-family: 'times new roman';
+    color: #2C303F;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+p, button, span {
+    font-family: 'helvetica';
+    color:#5b5e6d;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 0;
+    margin: 1em 0;
+}
+
+ul {
+    font-family: 'helvetica';
+    color:#5b5e6d;
+    font-size: 1.2rem;
+
+}
+
+.background-grey {
+    background-color: #F4F3F4
+}
+
+hr {
+    color: #5b5e6d;
+    width: 80vw;
+}
+
+@media(min-width: 767px) and (max-width: 961px) {
+    hr {
+        width: 40vw;
+    }
+}
+
+.align-left {
+    text-align: left;
+}
+
+.purp-button {
+    background-color: #192592;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 6px;
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+}
+@media(min-width: 767px) and (max-width: 961px) {
+    .purp-button {
+        background-color: #192592;
+        border: none;
+        color: white;
+        font-size: 1.1em;
+        border-radius: 6px;
+        width: 40%;
+        height: 8vh;
+        text-align: center;
+    } 
+}
+
+.white-button {
+    background-color: white;
+    border-color:  #192592;
+    color:  #192592;
+    font-size: 1.1em;
+    border-radius: 6px;
+    width: 100%;
+    height: 8vh;
+}
+
+@media(min-width: 767px) and (max-width: 961px) {
+    .white-button {
+        background-color: white;
+        border-color:  #192592;
+        color:  #192592;
+        font-size: 1.1em;
+        border-radius: 6px;
+        width: 25%;
+        height: 8vh;
+    }
+}
+
+input {
+    background-color: none;
+    border: 1px solid #F4F3F4;
+    color: #5b5e6d;
+    font-size: 1.1em;
+    border-radius: 6px;
+    width: 100%;
+    height: 8vh;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 
+}
+
+@media(min-width: 767px) and (max-width: 961px) {
+    input {
+        background-color: none;
+        border: 1px solid #F4F3F4;
+        color: #5b5e6d;
+        font-size: 1.1em;
+        border-radius: 6px;
+        width: 80%;
+        height: 8vh;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+}
+
+.bold {
+    font-weight: 600;
+}

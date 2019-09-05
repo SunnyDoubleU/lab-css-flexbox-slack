@@ -1,0 +1,79 @@
+/* CSS FOLDER FOR MAIN*/
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+main .client-box {
+    border-bottom:  2px solid #eee;
+}
+
+main .client-box2 {
+        border-bottom:  2px solid #eee;
+}
+
+main img {
+    width: 27vw;
+    overflow: visible;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+@media(min-width: 767px) and (max-width: 961px) {
+    main > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(min-width: 767px) and (max-width: 961px) {
+    main > div > div{
+        display: flex;
+        flex-direction: row;
+        width: 70vw;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width: 767px) and (max-width: 961px) {
+    main .client-box {
+        padding: 5vh 5vw 5vh 0;
+        border-bottom:  2px solid #eee;
+        border-right: 2px solid #eee;
+        margin: 0 0;
+    }
+}
+
+@media(min-width: 767px) and (max-width: 961px) {
+    main .client-box2 {
+        padding: 5vh 0 5vh 0;
+        border-bottom:  2px solid #eee;
+        margin: 0 0;
+        
+    }
+}
+
+main p {
+    text-align: center;
+}
+
+.margin-5vw {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.main-hr {
+    width: 100%;
+}
