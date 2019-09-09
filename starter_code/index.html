@@ -8,6 +8,7 @@
   <script src="https://use.fontawesome.com/1fb0eb3889.js"></script>
   <link href="./stylesheets/index.css" rel="stylesheet" type="text/css" />
   <title>Where work happens | Slack</title>
+  <link rel="icon" href="https://user-images.githubusercontent.com/819186/51553744-4130b580-1e7c-11e9-889e-486937b69475.png">
 </head>
 
 <body>
@@ -17,52 +18,66 @@
         <li>Why Slack?</li>
         <li>Pricing</li>
         <li>About Us</li>
-        <li>Your Workspaces</li>
+        <li class="workspace">Your Workspaces</li>
     </div>
   </nav>
 
   <header>
+    <div class="introduction"> 
+      <div class="align-left">
+          <h1>Where Work Happens</h1>
+          <p>When your team needs to kick off a project, hire a new employee, deploy some code, review a sales contract, finalize next year's budget, measure an A/B test, plan your next office opening, and more, Slack has you covered.</p>
+      </div>
+
+      <div class="email-button">
+      <input type="text" id="search" placeholder="Email address" ></input>
+      <button class="purp-button" type="button" name="button">GET STARTED</button>
+      </div>
+
+      <div class ="align-signin">
+      <p>Already using Slack? <a href="#">Sign in</a></p>
+      </div>
+  </div>
+
     <img src="./images/home_talking.png" alt="home_work_happening">
-    <div class="align-left">
-        <h1>Where Work Happens</h1>
-        <p>When your team needs to kick off a project, hire a new employee, deploy some code, review a sales contract, finalize next year's budget, measure an A/B test, plan your next office opening, and more, Slack has you covered.</p>
-    </div>
-    <input type="text" id="search" placeholder="Email address" ></input>
-    <button class="purp-button" type="button" name="button">GET STARTED</button>
-    <p>Already using Slack? <a href="#">Sign in</a></p>
+
   </header>
 
   <main>
-    <div class="background-grey">
+    <div class="background-grey grey-align">
+      <div class="align-goodcompany">
         <h2>You´re in good company</h2>
         <p>Millions of people around the world have already made Slack the place where their work happens.</p>
         <button class="white-button">DISCOVER WHY</button>
-        <div>
-            <img class="client-box" src="./images/airbnb-logo.png" alt="">
-          
-            <img class="client-box2"  src="./images/capital-one-logo.png" alt="">
-   
-            <img class="client-box" src="./images/harvard-logo.png" alt="">
-      
-            <img class="client-box2" src="./images/los-angeles-times-logo.png" alt="">
-         
-            <img class="client-box" src="./images/oracle-logo.png" alt="">
-        
-            <img class="client-box2" src="./images/ticketmaster-logo.png" alt="">
-        </div>
+      </div>
+
+      <div class="all-client-box">
+        <img class="client-box" src="./images/airbnb-logo.png" alt="">
+        <img class="client-box2"  src="./images/capital-one-logo.png" alt="">
+        <img class="client-box3" src="./images/harvard-logo.png" alt="">
+        <img class="client-box4" src="./images/los-angeles-times-logo.png" alt="">
+        <img class="client-box5" src="./images/oracle-logo.png" alt="">
+        <img class="client-box6" src="./images/ticketmaster-logo.png" alt="">
+      </div>
     </div>
-    <div class="margin-5vw">
-      <h3>Try it for free</h3>
-      <p>Already using Slack? <a href="">Sign in</a></p>
-      <input type="text" id="search" placeholder="Email address" ></input>
-      <button class="purp-button" type="button" name="button">GET STARTED</button>
+    <div class="white-align">
+      <div class="align-left">
+        <h3>Try it for free</h3>
+        <p>Already using Slack? <a href="">Sign in</a></p>
+      </div>
+      <div class="email-button">
+        <input type="text" id="search" placeholder="Email address" ></input>
+        <button class="purp-button" type="button" name="button">GET STARTED</button>
+      </div>
     </div>
     <hr class="main-hr">
   </main>
 
   <footer>
-    <div class="list-column">
+    <div class="front-div">
       <img src="./images/iso-slack.png" alt="">
+    </div>
+    <div class="list-column">
       <ul>
         <li class="bold">COMPANY</li>
         <li>About Us</li>
@@ -96,26 +111,31 @@
         <li>Slack Fund</li>
       </ul>
     </div>
-    <div class="background-grey bottom-footer bold">
-        <div>
-            <ul class="list-row">
-                <li>Status</li>
-                <li>Privacy & Terms</li>
-                <li>Contact Us</li>
-            </ul>
-        </div>
-        <div>
-            <img src="./images/us-flag.png" alt="">
-            <span>English (US)</span>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-        </div>
-        <div>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-youtube-play" aria-hidden="true"></i>
-        </div>
-    </div>
   </footer>
+
+  <section class="background-grey bold">
+
+          <ul class="list-row">
+              <li>Status</li>
+              <li>Privacy & Terms</li>
+              <li>Contact Us</li>
+          </ul>
+
+
+          <div class="region-social">
+            <div class="region">
+              <img src="./images/us-flag.png" alt="">
+              <span>English (US)</span>
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+
+            <div class="social"> 
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </div>
+        </div>
+  </section>
 </body>
 
 </html>
