@@ -6,7 +6,7 @@ main {
 
 }
 
-main .grey-align{
+main .grey-align {
     display: flex;
     flex-direction: column;
     align-items: center;   
@@ -17,120 +17,25 @@ main .grey-align{
     margin-bottom: 3vh;
 }
 
-
-@media (min-width: 1025px) {
-    main .grey-align {
-    padding-bottom: 5vh;
-    }
-}
-
-main .white-align{
+main .white-align {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    text-align: left;
+    text-align: center;
     padding-left: 5vw;
     padding-right: 5vw;
     margin: 5vh 0;
 }
 
-@media (min-width: 1025px) {
-    main .white-align {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center; 
-        text-align: center;  
-        padding-left: 5vw;
-        padding-right: 5vw;
-        margin: 5vh 0;
-    }
-}
-
-@media (min-width: 1025px) {
-    main .align-left {
-        width: 70%%;
-    }
-}
-
-@media(min-width: 767px) and (max-width: 1024px) {
-    main .email-button {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        width: 50%;
-    }
-}
-
-@media (min-width: 1025px) {
-    main .email-button{
-        width: 20%;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-@media(min-width: 767px) and (max-width: 1024px) {
-    main .purp-button {
-        width: 47%;
-        height: 8vh;
-    }
-}
-
-@media (min-width: 1025px) {
-    main .purp-button{
-        width: 100%;
-        height: 9vh;
-    }
-}
-
-@media(min-width: 767px) and (max-width: 1024px) {
-    main input {
-        width: 47%;
-        height: 8vh;
-        margin: 0 0.5vw 0 0;
-    }
-}
-
-@media (min-width: 1025px) {
-    main input {
-        display: none;
-    }
-}
-
-@media(min-width: 767px) and (max-width: 1024px) {
-    main .white-align{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;   
-        padding-left: 5vw;
-        padding-right: 5vw;
-        margin: 5vh 0;
-    }
-}
-@media(min-width: 767px) and (max-width: 1024px) {
-    main > div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+main .align-left {
+    text-align: center;
 }
 
 main .align-goodcompany {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-
-
-@media(min-width: 767px) and (max-width: 1024px) {
-    main .align-goodcompany {
-        display: flex;
-        justify-content: center;
-    }
 }
 
 .white-button {
@@ -142,30 +47,6 @@ main .align-goodcompany {
     width: 100%;
     height: 9vh;
     font-weight: bold;
-}
-
-@media(min-width: 767px) and (max-width: 1024px) {
-    .white-button {
-        background-color: white;
-        border-color:  #192592;
-        color:  #192592;
-        font-size: 1rem;
-        border-radius: 6px;
-        width: 40%;
-        height: 8vh;
-    }
-}
-
-@media (min-width: 1025px) {
-    main .white-button {
-        width: 25%;
-    }
-}
-
-@media(min-width: 767px) and (max-width: 1024px) {
-    main .background-grey {
-        padding-bottom: 5vh;
-    }
 }
 
 main p {
@@ -180,3 +61,113 @@ main p {
 .main-hr {
     width: 100%;
 }
+
+@media(min-width: 767px) {
+    main .align-left {
+        width: 60%;
+        text-align: left;
+    }
+
+    main .align-left p {
+        text-align: left;
+    }
+
+    main .purp-button {
+        width: 47%;
+        height: 8vh;
+    }
+}
+
+@media(min-width: 767px) and (max-width: 1024px) {
+
+    main .email-button {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 70%;
+        margin: 0 8vw 0 0
+    }
+
+    main input {
+        width: 47%;
+        height: 8vh;
+        margin: 0 0.5vw 0 0;
+    }
+
+    main .white-align {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+        text-align: center;  
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin: 5vh 0;
+        width: 100%;
+    } 
+
+    main > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .white-button {
+        background-color: white;
+        border-color:  #192592;
+        color:  #192592;
+        font-size: 0.9rem;
+        border-radius: 6px;
+        width: 40%;
+        height: 8vh;
+    }
+
+    main .align-goodcompany {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .background-grey {
+        padding-bottom: 5vh;
+    }
+
+}
+
+
+@media(min-width: 1025px) {
+    main .white-align {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+        text-align: center;  
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin: 5vh 0;
+    }
+
+    main .grey-align {
+        padding-bottom: 5vh;
+    }
+
+    main .email-button{
+        width: 20%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main .purp-button{
+        width: 100%;
+        height: 9vh;
+    }
+
+    main input {
+        display: none;
+    }
+
+    main .white-button {
+        width: 25%;
+    }
+}
+

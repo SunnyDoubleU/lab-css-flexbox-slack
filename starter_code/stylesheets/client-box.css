@@ -1,4 +1,4 @@
-
+/*  CSS FOLDER SPECIFICALLY FOR CLIENT LOGOS*/
 
 main .all-client-box {
     display: flex;
@@ -8,69 +8,11 @@ main .all-client-box {
     align-items: center;
 }
 
-
-@media(min-width: 767px) and (max-width: 961px) {
-    main .all-client-box {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-}
-
-@media(min-width: 961px) and (max-width: 1024px) {
-    main .all-client-box {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-}
-
-@media (min-width: 1025px) {
-    main .all-client-box {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-}
-
 main .client-box {
     width: 40vw;
     height: auto;
     border-bottom:  2px solid #eee;
     padding: 5vh 0;
-}
-
-@media(min-width: 767px) and (max-width: 961px) {
-    main .client-box {
-        width: 27vw;
-        overflow: visible;
-        padding: 5vh 5vw 5vh 5vw;
-        border-bottom:  2px solid #eee;
-        border-right: 2px solid #eee;
-        margin: 0 0;
-    }
-}
-
-@media(min-width: 961px) and (max-width: 1024px) {
-    main .client-box {
-        width: 21vw;
-        overflow: visible;
-        padding: 5vh 4vw;
-        margin: 0 0;
-        border-bottom:  2px solid #eee;
-        border-right: 2px solid #eee;
-    }
-}
-
-@media (min-width: 1025px) {
-   main .client-box {
-    width: 17vw;
-    overflow: visible;
-    padding: 5vh 4vw;
-    margin: 0 0;
-    border-bottom:  2px solid #eee;
-    border-right: 2px solid #eee;
-   }
 }
 
 main .client-box2 {
@@ -80,73 +22,11 @@ main .client-box2 {
     padding: 5vh 0;
 }
 
-@media(min-width: 767px) and (max-width: 961px) {
-    main .client-box2 {
-        width: 27vw;
-        overflow: visible;
-        padding: 5vh 5vw 4vh 5vw;
-        border-bottom:  2px solid #eee;
-        margin: 0 0;
-    }
-}
-
-@media(min-width: 961px) and (max-width: 1024px) {
-    main .client-box2 {
-        width: 21vw;
-        overflow: visible; 
-        padding: 5vh 4vw 4vh;
-        margin: 0 0;
-        border-bottom:  2px solid #eee;
-        border-right: 2px solid #eee;
-    }
-}
-
-@media (min-width: 1025px) {
-    main .client-box2 {
-        width: 17vw;
-        overflow: visible; 
-        padding: 5vh 4vw 4vh;
-        margin: 0 0;
-        border-bottom:  2px solid #eee;
-        border-right: 2px solid #eee;
-    }
-}
 main .client-box3 {
     width: 40vw;
     height: auto;
     border-bottom:  2px solid #eee;
     padding: 5vh 0;
-}
-
-@media(min-width: 767px) and (max-width: 961px) {
-    main .client-box3 {
-        width: 27vw;
-        overflow: visible;
-        padding: 3vh 7vw 3.5vh 3vw;
-        border-bottom:  2px solid #eee;
-        border-right: 2px solid #eee;
-        margin: 0 0;
-    }
-}
-
-@media(min-width: 961px) and (max-width: 1024px) {
-    main .client-box3 {
-        width: 21vw;
-        overflow: visible;
-        padding: 5vh 4vw 6vh;
-        margin: 0 0;
-        border-bottom: 2px solid #eee;
-    }
-}
-
-@media (min-width: 1025px) {
-    main .client-box3 {
-        width: 17vw;
-        overflow: visible;
-        padding: 5vh 4vw 6vh;
-        margin: 0 0;
-        border-bottom: 2px solid #eee;
-    }
 }
 
 main .client-box4 {
@@ -156,76 +36,11 @@ main .client-box4 {
     padding: 5vh 0;
 }
 
-@media(min-width: 767px) and (max-width: 961px) {
-    main .client-box4 {
-        width: 27vw;
-        overflow: visible;
-        padding: 5vh 3vw 5vh 7vw;
-        border-bottom:  2px solid #eee;
-        margin: 0 0;
-    }
-}
-
-@media(min-width: 961px) and (max-width: 1024px) {
-    main .client-box4 {
-        width: 21vw;
-        overflow: visible;
-        padding: 5vh 4vw;
-        margin: 0 0;
-        border-bottom:  none;
-        border-right: 2px solid #eee;
-    }
-}
-
-@media (min-width: 1025px) {
-    main .client-box4 {
-        width: 17vw;
-        overflow: visible;
-        padding: 5vh 4vw;
-        margin: 0 0;
-        border-bottom:  none;
-        border-right: 2px solid #eee;
-    }
-}
-
 main .client-box5 {
     width: auto;
     height: 4vh;
     border-bottom:  2px solid #eee;
     padding: 5vh 0;
-}
-
-@media(min-width: 767px) and (max-width: 961px) {
-    main .client-box5 {
-        width: 27vw;
-        overflow: visible;
-        padding: 5vh 5vw 5vh 5vw;
-        border-bottom: none;
-        border-right: 2px solid #eee;
-        margin: 0 0;
-    }   
-}
-
-@media(min-width: 961px) and (max-width: 1024px) {
-    main .client-box5 {
-        width: 21vw;
-        overflow: visible;
-        padding: 5vh 4vw;
-        margin: 0 0;
-        border-bottom: none;
-        border-right: 2px solid #eee;
-    }
-}
-
-@media (min-width: 1025px) {
-    main .client-box5 {
-        width: 17vw;
-        overflow: visible;
-        padding: 5vh 4vw;
-        margin: 0 0;
-        border-bottom: none;
-        border-right: 2px solid #eee;
-    }
 }
 
 main .client-box6 {
@@ -234,7 +49,57 @@ main .client-box6 {
     padding: 5vh 0 7vh;
 }
 
+
 @media(min-width: 767px) and (max-width: 961px) {
+    main .all-client-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main .client-box {
+        width: 27vw;
+        overflow: visible;
+        padding: 5vh 5vw 5vh 5vw;
+        border-bottom:  2px solid #eee;
+        border-right: 2px solid #eee;
+        margin: 0 0;
+    }
+
+    main .client-box2 {
+        width: 27vw;
+        overflow: visible;
+        padding: 5vh 5vw 4vh 5vw;
+        border-bottom:  2px solid #eee;
+        margin: 0 0;
+    }
+
+    main .client-box3 {
+        width: 27vw;
+        overflow: visible;
+        padding: 3vh 7vw 3.5vh 3vw;
+        border-bottom:  2px solid #eee;
+        border-right: 2px solid #eee;
+        margin: 0 0;
+    }
+
+    main .client-box4 {
+        width: 27vw;
+        overflow: visible;
+        padding: 5vh 3vw 5vh 7vw;
+        border-bottom:  2px solid #eee;
+        margin: 0 0;
+    }
+
+    main .client-box5 {
+        width: 27vw;
+        overflow: visible;
+        padding: 5vh 5vw 5vh 5vw;
+        border-bottom: none;
+        border-right: 2px solid #eee;
+        margin: 0 0;
+    }  
+    
     main .client-box6 {
         width: 27vw;
         overflow: visible;
@@ -242,10 +107,60 @@ main .client-box6 {
         margin: 0 0;
         border: none;
     }
+
 }
 
-
 @media(min-width: 961px) and (max-width: 1024px) {
+    main .all-client-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main .client-box {
+        width: 21vw;
+        overflow: visible;
+        padding: 5vh 4vw;
+        margin: 0 0;
+        border-bottom:  2px solid #eee;
+        border-right: 2px solid #eee;
+    }
+
+    main .client-box2 {
+        width: 21vw;
+        overflow: visible; 
+        padding: 5vh 4vw 4vh;
+        margin: 0 0;
+        border-bottom:  2px solid #eee;
+        border-right: 2px solid #eee;
+    }
+
+    main .client-box3 {
+        width: 21vw;
+        overflow: visible;
+        padding: 5vh 4vw 6vh;
+        margin: 0 0;
+        border-bottom: 2px solid #eee;
+    }
+
+    main .client-box4 {
+        width: 21vw;
+        overflow: visible;
+        padding: 5vh 4vw;
+        margin: 0 0;
+        border-bottom:  none;
+        border-right: 2px solid #eee;
+    }
+
+    main .client-box5 {
+        width: 21vw;
+        overflow: visible;
+        padding: 5vh 4vw;
+        margin: 0 0;
+        border-bottom: none;
+        border-right: 2px solid #eee;
+    }
+
     main .client-box6 {
         width: 21vw;
         overflow: visible;
@@ -253,9 +168,59 @@ main .client-box6 {
         margin: 0 0;
         border: none;
     }
+
 }
 
 @media (min-width: 1025px) {
+    main .all-client-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main .client-box {
+        width: 17vw;
+        overflow: visible;
+        padding: 5vh 4vw;
+        margin: 0 0;
+        border-bottom:  2px solid #eee;
+        border-right: 2px solid #eee;
+    }
+    main .client-box2 {
+        width: 17vw;
+        overflow: visible; 
+        padding: 5vh 4vw 4vh;
+        margin: 0 0;
+        border-bottom:  2px solid #eee;
+        border-right: 2px solid #eee;
+    }
+
+    main .client-box3 {
+        width: 17vw;
+        overflow: visible;
+        padding: 5vh 4vw 6vh;
+        margin: 0 0;
+        border-bottom: 2px solid #eee;
+    }
+
+    main .client-box4 {
+        width: 17vw;
+        overflow: visible;
+        padding: 5vh 4vw;
+        margin: 0 0;
+        border-bottom:  none;
+        border-right: 2px solid #eee;
+    }
+
+    main .client-box5 {
+        width: 17vw;
+        overflow: visible;
+        padding: 5vh 4vw;
+        margin: 0 0;
+        border-bottom: none;
+        border-right: 2px solid #eee;
+    }
+
     main .client-box6 {
         width: 17vw;
         overflow: visible;

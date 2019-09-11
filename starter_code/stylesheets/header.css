@@ -10,6 +10,23 @@ header {
     margin-right: 5vw;
 }
 
+.align-signin {
+    text-align: center;
+} 
+
+header > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+
 @media(min-width: 767px) and (max-width: 1024px) {
     header {
         display: flex;
@@ -19,56 +36,11 @@ header {
         margin-right: 5vw;
         justify-content: center;
     }
-}
 
-@media (min-width: 1025px) {
-    header {
-        display: flex;
-        flex-direction: row-reverse;
-        margin-top: 20vh;
-        margin-left: 5vw;
-        margin-right: 5vw;
-        justify-content: space-between;
-    }
-}
-/* align.sign used for "already using slack? sign in"*/
-.align-signin {
-    text-align: center;
-} 
-
-@media (min-width: 1025px) {
-    header p{
-        font-size: 1.3rem
-    }
-}
-@media (min-width: 767px) and (max-width: 1024px) {
     .align-signin {
         text-align: left;
     }
-}
 
-@media (min-width: 1025px) {
-    .align-signin {
-        text-align: left;
-    }
-}
-
-@media (min-width: 1025px) {
-    header .introduction{
-        width: 49%
-    }
-}
-
-header > div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-@media (min-width: 767px) and (max-width: 1024px) {
     .email-button {
         display: flex;
         flex-direction: row;
@@ -76,9 +48,7 @@ header > div {
         align-items: center;
         align-content: center;
     }
-}
 
-@media(min-width: 767px) and (max-width: 1024px) {
     header .purp-button {
         background-color: #192592;
         border: none;
@@ -89,16 +59,7 @@ header > div {
         height: 9vh;
         text-align: center;
     } 
-}
 
-@media (min-width: 1025px) {
-    header .purp-button {
-        width: 38%;
-        height: 9vh;
-    }
-}
-
-@media(min-width: 767px) and (max-width: 1024px) {
     header input {
         background-color: none;
         border: 1px solid #F4F3F4;
@@ -111,20 +72,7 @@ header > div {
         text-align: left;
         margin-right: 2%;
     }
-}
 
-@media (min-width: 1025px) {
-    header input {
-        display: none;
-    }
-}
-
-header img {
-    width: 100%;
-    height: auto;
-}
-
-@media (min-width: 767px) and (max-width: 1024px) {
     header img {
         width: 60%;
         height: auto;
@@ -132,6 +80,36 @@ header img {
 }
 
 @media (min-width: 1025px) {
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 20vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        justify-content: space-between;
+    }
+
+    header p{
+        font-size: 1.3rem
+    }
+
+    .align-signin {
+        text-align: left;
+    }
+
+    header .introduction{
+        width: 49%
+    }
+
+    header .purp-button {
+        width: 38%;
+        height: 9vh;
+    }
+
+    header input {
+        display: none;
+    }
+
     header img {
         width: 50%;
     }

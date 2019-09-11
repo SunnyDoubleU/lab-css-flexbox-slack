@@ -1,16 +1,47 @@
 /* CSS FOLDER FOR FOOTER*/
 
-/* footer > 2 divs
-/* 1st div > img, ul 
-/* 2nd div > ul, div 
-            div > div 
-                    img, span, i*/
-
 footer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
 
+.list-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list-column ul {
+    width: 30%;
+    line-height: 2.5rem;
+    list-style: none;
+    margin: 0 5vw 5vh 0;
+}
+
+.front-div {
+    display: block;
+    width: 30%;
+}
+
+footer img {
+    margin-right: 50%;
+    width: 60%;
+    height: auto;
+}
+
+
+@media(min-width: 767px) {
+    .list-column ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 16%;
+        padding: 0 0;
+        font-size: 0.86rem;
+        letter-spacing: 0.2px;
+    }
 }
 
 @media(min-width: 767px) and (max-width: 1024px) {
@@ -20,24 +51,7 @@ footer {
         justify-content: space-evenly;
         margin: 2vh 0 5vh 0;
     }   
-}
 
-@media(max-width: 1025px) {
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 2vh 0 5vh 0;
-    }
-}
-
-.list-column {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-@media(min-width: 767px) and (max-width: 1024px)  {
     .list-column {
         display: flex;
         flex-direction: row;
@@ -46,57 +60,46 @@ footer {
         width: 70%;
         margin: 3vh 0 0 0;
     }
-}
 
-@media (max-width: 1025px) {
-    .list-column {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 50%;
-        margin: 3vh 0 0 0;
-    }
-}
-
-.list-column ul {
-    width: 30%;
-    line-height: 2.5rem;
-    list-style: none;
-    margin: 0 5vw 0 0;
-}
-
-@media(min-width: 767px) {
-    .list-column ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        width: 17%;
-        padding: 0 0;
-        font-size: 0.86rem;
-        letter-spacing: 0.2px;
-    }
-}
-
-footer img {
-    margin-right: 50%;
-    width: 40%;
-}
-
-@media(min-width: 767px) and @media(max-width: 1024px) {
     .front-div {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        width: 20%;
+        width: 15%;
+    }
+
+    footer img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
     }
 }
 
+@media(min-width: 1025px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2vh 0 6vh 0;
+    }
 
-@media(min-width: 767px) {
+    .list-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 65%;
+        padding: 5vh 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .front-div {
+        width: 38%;
+    }
+
     footer img {
-        width: 70%;
+        width: 40%;
         height: auto;
         margin: 0;
         padding: 0;
